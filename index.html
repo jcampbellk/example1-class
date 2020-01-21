@@ -10,7 +10,7 @@
     <p>
     <!-- Table begins here -->
     <table>
-        <caption>My Weekly Schedule</caption>
+        <caption><h1>Happy Time Restaurant</h1></caption>
         <tr>
             <th></th>
             <th>Sunday</th>
@@ -23,40 +23,113 @@
         </tr>
         <tr>
             <td>Morning</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
-            <td>Eat breakfast</td>
+            <td>Sunday brunch</td>
+            <td>Basic breakfast</td>
+            <td>Basic breakfast</td>
+            <td>Basic breakfast</td>
+            <td>Basic breakfast</td>
+            <td>Basic breakfast</td>
+            <td style="background-color:yellow" rowspan="3">Private Parties</td>
             </td>
         </tr>
         <tr>
             <td>Afternoon</td>
-            <td>Practice code</td>
-            <td>Practice code</td>
-            <td>Practice code</td>
-            <td>Practice code</td>
-            <td>Practice code</td>
-            <td>Practice code</td>
-            <td>Stiff drink</td>
+            <td>Serve brunch</td>
+            <td>Soup Menu</td>
+            <td>Burger Menu</td>
+            <td>Sushi Menu</td>
+            <td>Pho Menu</td>
+            <td>Pizza Menu</td>
+            
         </tr>
         <tr>
             <td>Evening</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
-            <td>Walk dog</td>
+            <td style="background-color:blue" colspan="6">Happy Hour</td>
+            
         </tr>
     </table>
-
+<br>
+<br>
     <!-- Form begins here-->
 
-    
     </p>
+    <p>
+<h2>Meeting Room Standing Reservation</h2>
+   </p>
+   <p>Looking for a regular meeting place? We reserve meeting rooms for regular meetings. Please enter the following information and our event coordinator will contact you.</p>
+
+   <br>
+
+   <form action="randomwebsite.website" method="post" id="firstform">
+
+        <label for="contact">Contact Name: </label>
+        <input type="text" id="contactname" name="contactname" placeholder="First Last">
+       
+        <label for="phone">Phone Number: </label>
+        <input type="text" id="phone" name="phone" placeholder="(xxx)xxx-xxxx">
+    
+        <!-- Radio form here -->
+        <p> 
+            <h3>Please tell us which day of the week you prefer:</h3>
+        
+            </p>
+        <p>
+    
+        <input type="radio" name="day" value="Sunday">
+        <label>Sunday</label>
+        <input type="radio" name="day value="Monday">
+        <label>Monday</label>
+        <input type="radio" name="day" value="Tuesday">
+        <label>Tuesday</label>
+        <input type="radio" name="day" value="Wednesday">
+        <label>Wednesday</label>
+        <input type="radio" name="day" value="Thursday">
+        <label>Thursday</label>
+        <input type="radio" name="day" value="Friday">
+        <label>Friday</label>
+        <input type="radio" name="day" value="Saturday">
+        <label>Saturday</label>
+        
+        </p>
+        <br>
+
+<!-- Checkboxes here -->
+
+    <p>
+    
+     <h3>Please tell us what time of day you prefer:</h3>
+
+    <p>
+
+    <input type="checkbox" name="time" value="Morning">
+    <label>Morning</label>
+    <input type="checkbox" name="time" value="Afternoon">
+    <label>Afternoon</label>
+    <input type="checkbox" name="time" value="Evening">
+    <label>Evening</label>
+
+    </p>
+    <br>
+
+    <!-- Select example -->
+    <p>
+        <h3>Select your menu preferences:</h3>
+
+     </p>
+    <h3>
+     <select name="menuPreference" multiple>
+         <option value="Brunch">Brunch</option>
+         <option value="Soup">Soup</option>
+         <option value="Burgers">Burgers</option>
+         <option value="Sushi">Sushi</option>
+         <option value="Pho">Pho</option>
+         <option value="Pizza">Pizza</option>
+     </select>
+     </h3>
+    
+
+     <center><input type="submit" value="SUBMIT"></center>
+   </form>
+
 </body>
 </html>
