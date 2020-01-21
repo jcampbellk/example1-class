@@ -2,8 +2,16 @@ header {
         font-family: 'Helvetica', san-serif;
     }
     
+    body {
+        font-family: 'Helvetica', san-serif;
+        font-size: 20px;
+        line-height: 2.0em;
+        margin: 0;
+    }
     p {
         font-family: 'Helvetica', san-serif;
+        font-size: 20px;
+        line-height: 1.6em;
     }
     
     .center {
@@ -13,12 +21,19 @@ header {
     h1 {
         color: green;
         text-align: center;
-        font-family: "Times", serif;
+        font-family: 'Times', serif;
     }
 
     h2 {
         color: red;
         text-align: center;
-        font-family: "Helvetica", san-serif;
+        font-family: 'Helvetica', san-serif;
         font-size: 
+    }
+
+    h3 {
+        color: purple;
+        text-align: center;
+        font-family: 'Helvetica', san-serif;
+        
     }
