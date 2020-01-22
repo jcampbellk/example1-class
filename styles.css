@@ -1,0 +1,56 @@
+header {
+    font-family: 'Helvetica', san-serif;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 500px;
+    border-radius: 25px;
+}
+
+img:hover {
+    border-radius: 0px;
+}
+
+.green-text {
+    color: rgb(0,128,0);
+}
+a {
+    color: rgb(75,0,130);     
+ }
+
+a:visited {
+    color: rgb(255,0,0);
+   }
+
+ a:hover {
+       color: rgb(75,0,130,.5);
+ }
+
+ .center {
+       text-align: center;
+}
+
+.lists {
+    font-family: 'Gelasio', serif;
+}
+
+.roboto {
+    font-family: 'Roboto', san-serif;
+}
+
+.table-left {
+    width: 240px;
+    margin-right:10px; 
+    position: relative;
+    top: 5px;
+    left: 150px;
+}
+
+.table-right {
+    width: 240px;
+    position: relative;
+    top: -176px;
+    left: 400px;
+}
