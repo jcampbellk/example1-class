@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Practice</title>
+
+    <style>
+
+        <!-- apply to all fonts -->
+        * {
+            font-size: 18px;
+            color: white;
+            text-align: center;
+        }
+    
+      header, footer {
+          height: 50px;
+          line-height: 50px;
+          width: 100%;
+
+      }  
+    
+      .flex {
+          display: flex;
+     } 
+     
+     .content {
+         min-height: 75px;
+     }
+
+     .row-wrap {
+         flex-flow: row wrap;
+     }
+
+     .column-wrap {
+         flex-flow: column wrap;
+     }
+
+    .parentContainer {
+        background-color: white;
+        display: flext;
+    }
+
+    .leftContainer {
+        flex-basis= calc(100% / 3)
+            
+    }
+
+    .rightContainer {
+        display: flex;
+    }
+
+    .blue1 {
+        order; 1
+    }
+
+    .blue2 {
+        order: 2
+    }
+
+    .blue3 {
+        order: 3
+    }
+
+    .blue4 {
+        order: 4
+    }
+
+    .blue5 {
+        order: 5
+    }
+
+    .blue6 {
+        order: 6
+    }
+
+    .red1 {
+        order: 1
+    }
+
+    .red2 {
+        order: 2
+    }
+
+    .red3 {
+        order: 3
+    }
+
+    .blackFill {
+        background-color: black;
+    }
+
+    .blueFill {
+        background-color: blue;
+    }
+
+    .redFill {
+        background-color: red;
+    }
+
+  
+
+
+    
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="blackFill">
+      
+        HEADER
+        
+    
+    </header>
+
+    <main class="parentContainer">
+
+        <leftContainer>
+
+        <div class="blueFill content blue1">1</div>
+        <div class="blueFill content blue2">2</div>
+        <div class="blueFill content blue3"> 3</div>
+        <div class="blueFill content blue4">4</div>
+        <div class="blueFill content blue5">5</div>
+        <div class="blueFill content blue6">6</div>
+
+        </leftContainer>
+
+        <rightContainer>
+        
+        <div class="redFill content red1">1</div>
+        <div class="redFill content red2">2</div>
+        <div class="redFill content red3">3</div>
+
+        </rightContainer>
+
+
+    </main>
+  
+    
+    <footer class="blackFill">
+        
+        Footer
+
+    </footer>
+
+
+</body>
+</html>

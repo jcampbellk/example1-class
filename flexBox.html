@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlexBox</title>
+    <style>
+        /*Feel Free to add classes and styling as you see fit.*/
+        .content{
+            border: 1px solid black;
+            background-color: #FFa500;
+            color: white;
+        }
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+        .center{
+            text-align: center;
+        }
+
+        .px-200 {
+            flex-basis: 200px;
+
+        }
+
+        .px-300 {
+            flex-basis: 300px;
+        }
+
+        .pct-25 {
+            flex-basis: 25%;
+        }
+
+        .pct-50 {
+            flex-basis: 50pct;
+        }
+
+        .flex-grow {
+            flex-grow: 1;
+        }
+
+        .flex-noshrink {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+<h3 class="center"> The container below should be a flex box with rows that wrap with space around for justifying content. Follow the instructions for each div below regarding styling guidelines</h3>
+<div class="container">
+    <div class="content center pct-25 flex-grow flex-noshrink">This div should have a basis width of: 25%, should be able to grow, and should be able to shrink</div>
+    <div class="content center px-300 flex-noshrink">This div should have a basis width of: 300px, should NOT be able to grow, and should be NOT able to shrink</div>
+    <div class="content center px-300 flex-grow">This div should have a basis width of: 300px, should be able to grow, and should be able to shrink</div>
+    <div class="content center px-300 flex-grow">This div should have a basis width of: 300px, should be able to grow, and should be able to shrink</div>
+    <div class="content center pct-25">This div should have a basis width of: 25%, should be able to grow, and should be able to shrink</div>
+    <div class="content center pct-50">This div should have a basis width of: 50%, should be able to grow, and should be able to shrink</div>
+    <div class="content center px-200 flex-noshrink">This div should have a basis width of: 200px, should NOT be able to grow, and should NOT be able to shrink</div>
+    <div class="content center px-200flex-grow">This div should have a basis width of: 200px, should be able to grow, and should be able to shrink</div>
+    <div class="content center px-300 ">This div should have a basis width of: 300px, should NOT be able to grow, and should be able to shrink</div>
+    <div class="content center pct-50 flex-grow">This div should have a basis width of: 50%, should be able to grow, and should be able to shrink</div>
+    <div class="content center px-200">This div should have a basis width of: 200px, should NOT be able to grow, and should be able to shrink</div>
+    <div class="content center px-200 flex-grow flex-noshrink">This div should have a basis width of: 200px, should be able to grow, and should be NOT able to shrink</div>
+    <div class="content center pct-25 flex-grow">This div should have a basis width of: 25%, should be able to grow, should be able to shrink And should be the first Item</div>
+
+
+</div>
+</body>
+</html>
