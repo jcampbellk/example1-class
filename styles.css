@@ -17,7 +17,7 @@ img:hover {
 .green-text {
     color: rgb(0,128,0);
 }
-a {
+.purple-text {
     color: rgb(75,0,130);     
  }
 
@@ -33,23 +33,44 @@ a:visited {
        text-align: center;
 }
 
-.lists {
+.Gelasio {
     font-family: 'Gelasio', serif;
+    font-size: 16px;
 }
 
 .roboto {
     font-family: 'Roboto', san-serif;
 }
 
-main{
-    text-align: center;
+main {
+    text-align: left;
 }
+
+/* 
 .table-left {
     width: 240px;
-    /* margin-right:10px;  */
     display: inline-block;
 }
+
 .table-right {
     width: 240px;
     display: inline-block;
+}
+*/
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 50%;
+}
+
+.margin-right {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 245px;
+}
+
+margin-left {
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
