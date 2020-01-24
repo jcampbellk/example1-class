@@ -20,32 +20,29 @@
         flex-basis: 10vw;
     }
 
-    .box:not(.black) {
-        box-shadow: inset -1px -1px -20px black;
-    }
 
-    .top-border {
+    .top {
         border-top: 1px solid black;
     }
 
-    .bottom-border {
+    .bottom {
         border-bottom: 1px;
     }
 
-    .right-border {
-        border-right: 1px;
+    .right {
+        border-right: 1px solid black;
     }
 
-    .left-border {
-        border-left: 1px;
+    .left {
+        border-left: 1px solid black;
     }
 
-    .top-border, .right-border {
-        flex-basis: calc(10% - 2px);
+    .top.bottom {
+        padding-top: calc(10% - 2px);
     }
 
-    .top-border.right-border {
-        flex-basis: calc(10% - 2px)
+    .top., .bottom {
+        padding-top: calc(10% - 1px)
     }
 
     .black {
@@ -80,6 +77,10 @@
         background-color: red;
     }
 
+    div:not(.black) {
+        box-shadow: inset -1px -1px 20px grey;
+    }
+
    
     
     
@@ -91,10 +92,10 @@
     
     <main class="container">
 
-        <div class="box cyan "></div>
-        <div class="box cyan"></div>
-        <div class="box cyan"></div>
-        <div class="box cyan"></div>
+        <div class="box teal"></div>
+        <div class="box teal"></div>
+        <div class="box teal"></div>
+        <div class="box teal"></div>
         <div class="box green"></div>
         <div class="box yellow"></div>
         <div class="box yellow"></div>
